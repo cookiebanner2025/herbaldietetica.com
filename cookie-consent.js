@@ -156,7 +156,7 @@ geoConfig: {
         background: '#ffffff',
         borderRadius: '12px',
         boxShadow: '0 8px 32px rgba(0, 0, 0, 0.12)',
-        width: '465px',
+        width: '540px',
         padding: '24px',
         textColor: '#2c3e50',
         linkColor: '#3498db',
@@ -223,7 +223,7 @@ geoConfig: {
         save: {
             background: '#f8f9fa',
             color: '#333333',
-            border: '1px solid #3498db',
+            border: '1px solid #e0e0e0',
             hover: {
                 background: '#f8f9fa',
                 color: '#333333',
