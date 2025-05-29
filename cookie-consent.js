@@ -199,12 +199,12 @@ geoConfig: {
         },
         
         reject: {
-            background: '#ffffff',
-            color: '#e74c3c',
+            background: '#f8f9fa',
+            color: '#333333',
             border: '1px solid #e74c3c',
             hover: {
-                background: '#ffeeed',
-                color: '#e74c3c',
+                background: '#f8f9fa',
+                color: '#333333',
                 transform: 'translateY(-1px)'
             }
         },
