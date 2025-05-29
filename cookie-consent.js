@@ -57,7 +57,7 @@ const config = {
     allowedDomains: [],
     
     // Privacy policy URL (configurable)
-    privacyPolicyUrl: 'https://yourdomain.com/privacy-policy', // Add your full privacy policy URL here
+    privacyPolicyUrl: 'https://herbaldietetica.com/es/content/6-Politica-de-privacidad', // Add your full privacy policy URL here
     
     // Microsoft UET Configuration
     // Microsoft UET Configuration
