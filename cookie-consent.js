@@ -116,9 +116,9 @@ const config = {
     
     // Language configuration
     languageConfig: {
-        defaultLanguage: 'en',
+        defaultLanguage: 'es',
         availableLanguages: [], // Only en and fr as requested
-        showLanguageSelector: true,
+        showLanguageSelector: false,
         autoDetectLanguage: true
     },
     
@@ -201,7 +201,7 @@ geoConfig: {
         reject: {
             background: '#f8f9fa',
             color: '#333333',
-            border: '1px solid #e74c3c',
+            border: '1px solid #e0e0e0',
             hover: {
                 background: '#f8f9fa',
                 color: '#333333',
@@ -221,12 +221,12 @@ geoConfig: {
         },
         
         save: {
-            background: '#3498db',
-            color: '#ffffff',
+            background: '#f8f9fa',
+            color: '#333333',
             border: '1px solid #3498db',
             hover: {
-                background: '#2980b9',
-                color: '#ffffff',
+                background: '#f8f9fa',
+                color: '#333333',
                 transform: 'translateY(-1px)'
             }
         }
@@ -2575,6 +2575,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         font-weight: 500;
         display: inline-block;
         transition: color 0.2s ease;
+        display: none;
     }
 
     .see-analytics-link:hover {
